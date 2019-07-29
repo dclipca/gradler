@@ -1,5 +1,4 @@
-# Gradler
-# React Native app for taking selfies, automatically.
+# Gradler - React Native app for taking selfies, automatically.
 
 Image #1                   |  Image #2                 |  Image #3 
 :-------------------------:|:-------------------------:|:-------------------------:
