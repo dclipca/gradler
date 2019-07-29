@@ -178,7 +178,6 @@ export default class Cam extends Component {
             buttonNegative: 'Cancel',
           }}
         />
-
           <ActionButton
           size={80}
           useNativeFeedback={false}
@@ -209,7 +208,6 @@ export default class Cam extends Component {
               style={styles.actionButtonIcon}
               />
             </ActionButton.Item>
-
             <ActionButton.Item
             useNativeFeedback={false}
             buttonColor='#1abc9c'
