@@ -43,6 +43,7 @@ export default class Settings extends React.Component {
       alert(error)
     }
   }
+  
   // Send interval unit data to AsyncStorage
   saveUnitData = async (value) => {      
     try {
@@ -52,6 +53,7 @@ export default class Settings extends React.Component {
       alert(error)
     }
   }
+  
   // Send image quality settings to ASyncStorage
   saveQualityPercentage = async (value) => {
     try {
@@ -69,6 +71,7 @@ export default class Settings extends React.Component {
         alert(error)
       }
     })
+    
     // Get data from AsyncStorage
     getData = async () => {
       try {
