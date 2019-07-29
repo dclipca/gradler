@@ -3,11 +3,11 @@
 
 Input: Johann Sebastian Bach | Input: Queen
 :-------------------------:|:-------------------------:
-![](https://github.com/virtumonde/musicalike/blob/master/demo/demo_2.gif?raw=true)  |  ![](https://github.com/virtumonde/musicalike/blob/master/demo/demo_3.gif?raw=true)
+![](https://lh3.googleusercontent.com/tuUAaSzAQ1mxCX-VxlQTo79ZW4CBFSCMO_Q__82m9jXgq4LHDFYnsd0UBrFepjZH9g=w1299-h602-rw)  |  ![](https://lh3.googleusercontent.com/YbbgHtNJdJ9f4EWjTyFyZRbO6kUj0Wopbm8RxU8aA-KMXj_Dbml2je6XAZI_n-0t4wc=w1299-h602-rw)
 
-<p align="center">
-  <img src="https://github.com/virtumonde/musicalike/blob/master/demo/demo_1.gif?raw=true">
-</p>
+Input: Johann Sebastian Bach | Input: Queen
+:-------------------------:|:-------------------------:
+![](https://lh3.googleusercontent.com/tuUAaSzAQ1mxCX-VxlQTo79ZW4CBFSCMO_Q__82m9jXgq4LHDFYnsd0UBrFepjZH9g=w1299-h602-rw)  |  ![](https://lh3.googleusercontent.com/YbbgHtNJdJ9f4EWjTyFyZRbO6kUj0Wopbm8RxU8aA-KMXj_Dbml2je6XAZI_n-0t4wc=w1299-h602-rw)
 
 Using [Last.FM API](https://www.last.fm/api/) and [Youtube Data API](https://developers.google.com/youtube/v3/)
 to generate lists of similar artists.
