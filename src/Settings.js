@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {StyleSheet, View, Text, Picker} from 'react-native'
 import AsyncStorage from '@react-native-community/async-storage'
 import ActionButton from 'react-native-action-button'
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default class Settings extends Component {
+export default class Settings extends Component.Component {
     state = {
       unit: 'second(s)',
       interval: 1,
