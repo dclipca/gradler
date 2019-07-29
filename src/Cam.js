@@ -190,8 +190,8 @@ export default class Cam extends Component {
             buttonColor='#1abc9c'
             title="Change Cam"
             onPress={() => {
-                this.swapCamType()
-                soundbutton.play()
+            this.swapCamType()
+            soundbutton.play()
             }}>
               <Icon name="md-redo"
               style={styles.actionButtonIcon}
@@ -202,8 +202,8 @@ export default class Cam extends Component {
             buttonColor='#1abc9c'
             title="Settings"
             onPress={() => {
-              this.props.switchScreen()
-              soundbutton.play()}}>
+            this.props.switchScreen()
+            soundbutton.play()}}>
               <Icon
               name="md-settings"
               style={styles.actionButtonIcon}
@@ -215,8 +215,8 @@ export default class Cam extends Component {
             buttonColor='#1abc9c'
             title="Stop"
             onPress={() => {
-              this.stopCameraMode()
-              soundbutton.play()}}>
+            this.stopCameraMode()
+            soundbutton.play()}}>
               <Icon
               name="ios-square"
               style={styles.actionButtonIcon}
@@ -227,9 +227,8 @@ export default class Cam extends Component {
             buttonColor='#1abc9c'
             title="Start"
             onPress={() => {
-              this.startCameraMode()
-              soundbutton.play()}}
-            >
+            this.startCameraMode()
+            soundbutton.play()}}>
               <Icon name="md-play"
               style={styles.actionButtonIcon}
               />
