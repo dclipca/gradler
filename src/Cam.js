@@ -15,26 +15,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'transparent'
   },
-
   button: {
     height: 200,
     justifyContent: 'flex-end',
     alignItems: 'center'
   },
-
   actionButtonIcon: {
     fontSize: 35,
     height: 35,
     color: 'white',
   },
-
   buttonLeft: {
     marginRight: 100,
     height: 200,
     justifyContent: 'flex-end',
     alignItems: 'center'
-  },
-  
+  }
 });
 
 
@@ -203,9 +199,12 @@ export default class Cam extends Component {
           onPress={() => {
             this.props.switchScreen()
             soundbutton.play()}}>
+              
           <Icon
           name="md-settings"
-          style={styles.actionButtonIcon}/>
+          style={styles.actionButtonIcon}
+          />
+            
           </ActionButton.Item>
 
           <ActionButton.Item
@@ -215,9 +214,12 @@ export default class Cam extends Component {
           onPress={() => {
             this.stopCameraMode()
             soundbutton.play()}}>
+            
           <Icon
           name="ios-square"
-          style={styles.actionButtonIcon} />
+          style={styles.actionButtonIcon}
+          />
+            
           </ActionButton.Item>
 
           <ActionButton.Item
