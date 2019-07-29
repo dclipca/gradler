@@ -22,9 +22,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-      {(this.state.displayCam == true) ?
-      <Cam switchScreen={this.switchScreen}/> : 
-      <Settings switchScreen={this.switchScreen}/>}
+        {(this.state.displayCam == true) ?
+        <Cam switchScreen={this.switchScreen}/> : 
+        <Settings switchScreen={this.switchScreen}/>}
       </View>
     )
   }
