@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default class Settings extends Component.Component {
+export default class Settings extends React.Component {
     state = {
       unit: 'second(s)',
       interval: 1,
